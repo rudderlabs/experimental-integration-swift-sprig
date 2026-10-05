@@ -1,0 +1,46 @@
+{
+  "copiedFiles": [
+    {
+      "output": "Sources/DemoSprig/Vendored/DemoShared/DemoNormalizer.swift",
+      "source": "Shared/DemoShared/DemoNormalizer.swift"
+    },
+    {
+      "output": "Sources/DemoSprig/DemoSprig.swift",
+      "source": "Integrations/Sprig/Sources/DemoSprig/DemoSprig.swift"
+    },
+    {
+      "output": "Sources/DemoSprig/Version.swift",
+      "source": "Integrations/Sprig/Sources/DemoSprig/Version.swift"
+    }
+  ],
+  "fileHashes": {
+    ".gitignore": "6c3f21e0d020c2a3887f176d7d69e0e6456e31888e053bf9dd5d1c5c78972aeb",
+    "CHANGELOG.md": "abe216edbb4fa8b11a47f0e8778abbba5840b7fd333268dbf13ba6ff7ade56f9",
+    "LICENSE": "eafd41a38224da2a93ae6ecf928f37a5b1cd17b8a2d952f894cda498146a7d1b",
+    "Package.swift": "63fc5cdbc879d9fc253be6a12e02d7b97783d12543c908bc06c393e453c8fbee",
+    "README.md": "78a426940e3ff8ef9651c368ce23fece95e9f348c4e0a3a5013b38731ce02523",
+    "Sources/DemoSprig/DemoSprig.swift": "583cf66a5ab78943777920edd426cc1235bef7c6a1dcfefe9c23c46ebec49260",
+    "Sources/DemoSprig/Vendored/DemoShared/DemoNormalizer.swift": "d5acef6c51f069568869a3f6ae18b61319120a8940c8e93a41089aa70e339a2c",
+    "Sources/DemoSprig/Version.swift": "58461d6c000244976f72a1589e8f601916c259784182f0284c9e4ce3444ef91b",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+  },
+  "package": "sprig",
+  "policies": {
+    "DemoSDK": {
+      "mode": "external",
+      "package": "sdk"
+    },
+    "DemoShared": {
+      "mode": "vendor"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceCommit": "30d2f67a9e23b7db8bcf034191acbfaa52a8e3f1",
+  "sourceRepository": "rudderlabs/experimental-swift-monorepo",
+  "targetClosure": [
+    "DemoSDK",
+    "DemoShared",
+    "DemoSprig"
+  ],
+  "version": "0.1.0"
+}
