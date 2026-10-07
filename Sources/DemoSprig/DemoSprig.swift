@@ -2,6 +2,7 @@ import DemoSDK
 
 public enum DemoSprig {
     public static func track(_ name: String) -> DemoEvent {
-        DemoEvent(name: DemoNormalizer.normalize(name), destination: "sprig")
+        let normalized = DemoNormalizer.normalize(name)
+        return DemoEvent(name: normalized.isEmpty ? "unnamed event" : normalized, destination: "sprig")
     }
 }
