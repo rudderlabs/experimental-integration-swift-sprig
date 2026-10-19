@@ -69,31 +69,31 @@
   "fileHashes": {
     ".github/CODEOWNERS": "b6186d483919a45be6dd29537a58adc1a5a34338ab74fcf6e9985506c18eb025",
     ".gitignore": "6c3f21e0d020c2a3887f176d7d69e0e6456e31888e053bf9dd5d1c5c78972aeb",
-    "CHANGELOG.md": "cb5b0b69e5f50e398c6a8b8f89b3e6049c53968905b295b8104f93c492b99941",
-    "CONTRIBUTING.md": "87f801bdfe97ec02103b49dea94959caa9ea7e8193950501ea2135f8d13fa5aa",
+    "CHANGELOG.md": "23286a189b59d214bdabe0b9351f3f1c2986f37b9936b3c1fdb95f4ee071f379",
+    "CONTRIBUTING.md": "7330e9044ead6f8c0477e1aaeca4f704b777ff47502e72711532ab9f22878551",
     "LICENSE": "130c075edb106634e90df2eb62cba8f7a3cb2c0e8ccec39cb168fc649684205d",
     "Package.swift": "04e979a9d44aca92ae39957184db64b73b37d7c9c62837c218d1b72f2758e7a5",
-    "README.md": "2b5b39236537f25aee2608656fc3f7b3b98d8b39bf5f09eb49778844dcd03bcd",
+    "README.md": "c99b43317233eb5221eee88c152f0aea1bd9deb579b27067b8ec1809103c98f6",
     "Sources/RudderIntegrationSprig/ObjCSprigIntegration.swift": "f1d7b1fab247e1006c098392366c3edaea66ba9fa5b1200e303d887833f7a695",
     "Sources/RudderIntegrationSprig/SprigAdapter.swift": "4e0c62b74dc5016851e90edecf4358b6f0250a32f2edcef63f5808bd498a1764",
-    "Sources/RudderIntegrationSprig/SprigIntegration.swift": "3d9c2d0f9871dd72d056bc542578a01be0ed1408f436cc2a4db74e5fcfd82104",
+    "Sources/RudderIntegrationSprig/SprigIntegration.swift": "4babc2441c29d7664572decdd510380e080d1b1d0291a799accf68c4b840dbc5",
     "Sources/RudderIntegrationSprig/SprigUtils.swift": "b7e9561ba18de017c1441f76b83062615b37b7c548de73921aeba62e7633f78f",
-    "Sources/RudderIntegrationSprig/Version.swift": "d2edaf91343e756780a46cbb4f88c3ff91afdfc37efbf8627cdb5fe8551a47ab",
-    "VERSION": "9fd28642d3aca191e5c7fc2383cfd6fabb2aac8743f029dabb8989ac584e31bc"
+    "Sources/RudderIntegrationSprig/Version.swift": "aaa35ab007136aab1209c98a3d52e5f44f4b8e6741eed68a8d1b17028953fcae",
+    "VERSION": "f5e5c9534532840fcd45bb002e69ed85c61dba2753450e26b448b7df1481e24d"
   },
   "package": "sprig",
   "policies": {
     "RudderStackAnalytics": {
       "mode": "external",
-      "package": "sdk"
+      "package": "swift-sdk"
     }
   },
   "schemaVersion": 1,
-  "sourceCommit": "d77260653d9178e5e0236ea899e7ae57584088e2",
+  "sourceCommit": "a8dfd1fb90e5f1d06c40cd639b0cedf82cd5299a",
   "sourceRepository": "rudderlabs/experimental-swift-monorepo",
   "targetClosure": [
     "RudderStackAnalytics",
     "RudderIntegrationSprig"
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
